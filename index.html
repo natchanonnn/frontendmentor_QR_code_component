@@ -10,7 +10,14 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    @import url('https://fonts.google.com/specimen/Outfit');
+    
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+    }
+
 
     :root {
       --White: hsl(0, 0%, 100%);
@@ -26,12 +33,18 @@
       min-height: 100vh;
       margin: 0;
       font-family: 'Outfit',sans-serif;
+      font-size: 15px;
     }
 
     p {
       font-size: 15px;
       color: var(--Grayish_blue);
       padding: 0 10px;
+    }
+
+    h2 {
+      font-size: 1.5em;
+      margin: 10px;
     }
 
     .boxHolder {
